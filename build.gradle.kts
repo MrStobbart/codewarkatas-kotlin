@@ -24,7 +24,7 @@ repositories {
     jcenter()
 }
 
-group = "id.jasoet.boilerplate"
+group = "id.marekmeyer"
 version = "1.0.0"
 
 application {
@@ -91,7 +91,6 @@ tasks.withType<KotlinCompile> {
         jvmTarget = "1.8"
         apiVersion = "1.3"
         languageVersion = "1.3"
-        allWarningsAsErrors = true
     }
 }
 
